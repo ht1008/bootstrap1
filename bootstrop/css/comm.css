@@ -1,0 +1,91 @@
+#footer {
+	background-color: #f8f8f8;
+}
+
+#footer .container {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+*{
+	font-family: "微软雅黑";
+}
+
+#myul li a {
+	color: #fff;
+}
+
+#myul li a:hover {
+	color: #0060BF;
+	text-decoration: underline;
+}
+
+#myul li a.active {
+	color: #00a7ff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#myul1 a.active {
+	background-color: #CCCCCC;
+}
+
+#myul1 li:hover {
+	background-color: #dedede;
+}
+
+#nav_list > div {
+	margin: 0;
+	border: 1px solid #DDDDDD;
+	border-bottom: 0;
+}
+
+#nav_list > div:nth-child(1) {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+#nav_list > div:last-child {
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+#nav_list > div a {
+	border-radius: 0;
+	color: #2375bc;
+	border: 0;
+	padding-left: 40px;
+}
+
+#nav_list > div a:hover {
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+#nav_list >div a:nth-child(1) {
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #DDDDDD;
+	padding-left:10px;
+	text-decoration: none;
+}
+
+#nav_list >div:nth-child(1) a:nth-child(1) {
+	border-bottom: 0;
+}
+
+#nav_list p {
+	background-color: #337ab7;
+	height: 40px;
+	line-height: 40px;
+}
+
+#nav_list p a {
+	color: #ffffff;
+	text-decoration: none;
+	margin-left: 20px;
+}
+#nav_list > div a.current{
+	background-color: #337ab7;
+	width: 100%;
+	color: #FFFFFF;
+}
